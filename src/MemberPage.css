@@ -1,0 +1,48 @@
+.member-page {
+  min-height: 58vh;
+  padding: 78px 0 110px;
+  background: #fbfcf9;
+}
+
+.member-page-content {
+  max-width: 1320px;
+}
+
+.member-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 58px;
+  color: #345948;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.member-back-link:hover {
+  color: #087b43;
+}
+
+.member-page h1 {
+  margin: 22px 0 16px;
+  color: #063b2a;
+  font-family: 'Outfit',sans-serif;
+  font-size: clamp(48px,7vw,82px);
+  line-height: 1;
+  letter-spacing: -.055em;
+}
+
+.member-page-content > p {
+  color: #64776c;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+@media (max-width: 760px) {
+  .member-page {
+    padding: 52px 0 80px;
+  }
+
+  .member-back-link {
+    margin-bottom: 42px;
+  }
+}

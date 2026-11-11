@@ -1,0 +1,395 @@
+.clubhouse-info-page {
+  background: #fbfcf9;
+}
+
+.clubhouse-info-hero {
+  min-height: 510px;
+  color: white;
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(90deg, rgba(3, 40, 27, .93), rgba(3, 48, 31, .62)),
+    url('https://quest-media-storage-bucket.s3.us-east-2.amazonaws.com/1791652857524-image.png') center 48% / cover;
+}
+
+.clubhouse-info-hero-content {
+  padding-top: 56px;
+  padding-bottom: 65px;
+}
+
+.clubhouse-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 52px;
+  color: #e4eee5;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.clubhouse-back-link:hover,
+.clubhouse-request-link:hover {
+  color: #d9f2a0;
+}
+
+.clubhouse-info-hero .eyebrow {
+  color: #eff7e6;
+}
+
+.clubhouse-info-hero .eyebrow-line {
+  background: #d9f2a0;
+}
+
+.clubhouse-info-hero h1 {
+  font-size: clamp(64px, 8vw, 108px);
+  line-height: .98;
+  margin: 22px 0;
+}
+
+.clubhouse-info-hero h1 em,
+.clubhouse-info-heading h2 em,
+.clubhouse-contact-inner h2 em {
+  color: #76c88d;
+}
+
+.clubhouse-info-hero p {
+  max-width: 570px;
+  color: #e3eee6;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 28px;
+}
+
+.clubhouse-info-section,
+.clubhouse-prices-section,
+.clubhouse-rules-section {
+  padding: 96px 0;
+}
+
+.clubhouse-info-section {
+  background: white;
+}
+
+.clubhouse-info-heading {
+  max-width: 680px;
+  margin-bottom: 42px;
+}
+
+.clubhouse-info-heading h2,
+.clubhouse-contact-inner h2 {
+  font-size: clamp(45px, 5vw, 68px);
+  line-height: 1.05;
+  margin: 18px 0;
+}
+
+.clubhouse-info-heading > p,
+.clubhouse-contact-inner > div:first-child > p {
+  max-width: 600px;
+  color: #64776c;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.clubhouse-space-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.clubhouse-space-card {
+  min-height: 230px;
+  padding: 27px;
+  border: 1px solid #d7e2d8;
+  background: #fbfdf9;
+}
+
+.clubhouse-space-icon,
+.clubhouse-rule > span {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  background: #e7f2e5;
+  color: #087b43;
+}
+
+.clubhouse-space-card h3,
+.price-table-wrap h3,
+.clubhouse-rule h3 {
+  color: #063b2a;
+  font-family: 'Outfit', sans-serif;
+}
+
+.clubhouse-space-card h3 {
+  font-size: 24px;
+  margin: 22px 0 8px;
+}
+
+.clubhouse-space-card > strong {
+  font-size: 12px;
+  color: #087b43;
+}
+
+.clubhouse-space-card p {
+  margin: 12px 0 0;
+  color: #64776c;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.clubhouse-kitchen-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 22px;
+  padding: 18px 20px;
+  background: #edf4ed;
+  color: #345948;
+}
+
+.clubhouse-kitchen-note > svg {
+  flex: none;
+  margin-top: 2px;
+  color: #087b43;
+}
+
+.clubhouse-kitchen-note p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.clubhouse-prices-section {
+  background: #edf4ed;
+}
+
+.clubhouse-price-grid {
+  display: grid;
+  gap: 19px;
+}
+
+.price-table-wrap {
+  background: white;
+  border: 1px solid #d7e2d8;
+  padding: 23px;
+}
+
+.price-table-wrap h3 {
+  font-size: 18px;
+  margin: 0 0 16px;
+}
+
+.price-table-scroll {
+  overflow-x: auto;
+}
+
+.price-table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.price-table th,
+.price-table td {
+  padding: 14px 12px;
+  border-top: 1px solid #e2e9e2;
+  font-size: 13px;
+}
+
+.price-table thead th {
+  color: #718078;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.price-table tbody th {
+  color: #263f33;
+  font-weight: 700;
+}
+
+.price-table td {
+  color: #087b43;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.clubhouse-price-note {
+  margin: 17px 0 0;
+  color: #64776c;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.clubhouse-rules-section {
+  background: white;
+}
+
+.clubhouse-rules-layout {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 75px;
+}
+
+.clubhouse-rules-layout .clubhouse-info-heading {
+  margin-bottom: 0;
+}
+
+.clubhouse-rules-list {
+  display: grid;
+  gap: 27px;
+}
+
+.clubhouse-rule {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: start;
+  gap: 16px;
+}
+
+.clubhouse-rule h3 {
+  font-size: 18px;
+  margin: 2px 0 8px;
+}
+
+.clubhouse-rule p,
+.clubhouse-priority-note {
+  color: #64776c;
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.clubhouse-priority-note {
+  padding: 16px 18px;
+  background: #edf4ed;
+}
+
+.clubhouse-contact-section {
+  padding: 78px 0;
+  background: #063b2a;
+  color: white;
+}
+
+.clubhouse-contact-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.clubhouse-contact-inner .eyebrow {
+  color: #d9ebd8;
+}
+
+.clubhouse-contact-inner .eyebrow-line {
+  background: #d9f2a0;
+}
+
+.clubhouse-contact-inner h2 em {
+  color: #d9f2a0;
+}
+
+.clubhouse-contact-inner > div:first-child > p {
+  color: #c9d9d0;
+}
+
+.clubhouse-contact-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+.clubhouse-phone-link,
+.clubhouse-request-link {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.clubhouse-request-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.booking-info-link {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: -24px 0 32px;
+  color: #64776c;
+  font-size: 13px;
+}
+
+.booking-info-link a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #087b43;
+  font-weight: 700;
+  border-bottom: 1px solid #a6c5ad;
+}
+
+.booking-info-link a:hover {
+  color: #063b2a;
+}
+
+@media (max-width: 760px) {
+  .clubhouse-info-hero {
+    min-height: 470px;
+  }
+
+  .clubhouse-info-hero-content {
+    padding-top: 38px;
+  }
+
+  .clubhouse-back-link {
+    margin-bottom: 40px;
+  }
+
+  .clubhouse-info-section,
+  .clubhouse-prices-section,
+  .clubhouse-rules-section {
+    padding: 72px 0;
+  }
+
+  .clubhouse-space-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .clubhouse-space-card {
+    min-height: auto;
+  }
+
+  .clubhouse-rules-layout {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .clubhouse-contact-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .booking-info-link {
+    margin-top: -14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .clubhouse-info-hero h1 {
+    font-size: 62px;
+  }
+
+  .price-table-wrap {
+    padding: 17px;
+  }
+
+  .price-table-wrap h3 {
+    font-size: 16px;
+  }
+}

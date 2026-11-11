@@ -1,0 +1,59 @@
+.sport-commercial-card {
+  min-height: 255px;
+  padding: 25px 28px;
+}
+
+.sport-commercial-card .sport-name {
+  margin-top: 23px;
+}
+
+.sport-commercial-description {
+  max-width: 300px;
+  margin-top: 9px;
+  color: #64776c;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.sport-commercial-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 22px;
+  color: #087b43;
+  font-size: 12px;
+  font-weight: 800;
+  transition: gap .2s, color .2s;
+}
+
+.sport-commercial-card:hover .sport-commercial-description,
+.sport-commercial-card:hover .sport-commercial-link {
+  color: #dcebe0;
+}
+
+.sport-commercial-card:hover .sport-commercial-link {
+  gap: 13px;
+}
+
+@media (max-width: 760px) {
+  .sport-commercial-card {
+    min-height: 225px;
+    padding: 20px;
+  }
+
+  .sport-commercial-card .sport-name {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 460px) {
+  .sport-commercial-card {
+    min-height: 240px;
+    padding: 17px;
+  }
+
+  .sport-commercial-description {
+    font-size: 12px;
+  }
+}
